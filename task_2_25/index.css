@@ -1,0 +1,99 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:"Microsoft Yahei";
+}
+div {
+    padding-left:25px;
+    position:relative;
+    color:#555;
+}
+#container{
+    width:600px;
+    margin:30px auto;
+    background:#ffee55;
+    padding:0 0 20px 0;
+}
+.search {
+    background:#ff88ee;
+    margin-bottom:20px;
+    height:40px;
+    line-height:40px;
+    padding-left:40px;
+}
+input {
+    width:200px;
+    border:1px solid #ccc;
+    height:28px;
+    border-radius:5px;
+    text-indent:10px;
+    margin-right:10px;
+}
+button{
+    width:100px;
+    height:28px;
+    background:#eee;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+#root{
+    margin-left:40px;
+}
+span {
+    color:#555;
+    font-size:12px;
+    padding-left:25px;
+    display:none;
+}
+lable{
+    height:25px;
+    line-height:25px;
+    display:block;
+}
+label:hover{
+    color:#aaa;
+}
+label:hover>span{
+    display:inline;
+}
+span:hover{
+    color:#66ff77;
+}
+.add{
+    background:url(image/add.gif) no-repeat 10px center;
+    background-size: auto 80%;
+}
+.delete{
+    background:url(image/delete.gif) no-repeat 10px center;
+    background-size: auto 80%;
+}
+.edit{
+    background:url(image/edit.gif) no-repeat 10px center;
+    background-size: auto 80%;
+}
+.parentClose:before {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:10px solid #aaa;
+    border-right:10px solid transparent;
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+.parentOpen:before {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-top:10px solid #aaa;
+    border-bottom:10px solid transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    position:absolute;
+    top:5px;
+    left:10px;
+}

@@ -1,0 +1,31 @@
+*{
+    font-family:"Microsoft YaHei";
+}
+input{
+    width:250px;
+    height:24px;
+}
+button{
+    width:80px;
+    height:24px;
+    border-radius:3px;
+    background:#fff;
+    border:1px solid #aaa;
+}
+#leftPop{
+    margin-left:20px;
+}
+.linkList{
+    margin:20px auto;
+}
+p{
+    display:inline-block;
+    width:20px;
+    line-height:100%;
+    text-align:center;
+    background:red;
+    color:#fff;
+    font-size:12px;
+    margin-left:4px;
+    vertical-align:bottom;
+}

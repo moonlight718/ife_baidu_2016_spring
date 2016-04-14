@@ -1,0 +1,59 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:"Microsoft YaHei";
+}
+.container{
+    margin:100px 0 0 100px;
+}
+.container label{
+    display:inline-block;
+    width:150px;
+    text-align:right;
+    margin-top:10px;
+    font-size:18px;
+}
+.container input{
+    display:inline-block;
+    width:250px;
+    height:37px;
+    line-height:37px;
+    margin-top:10px;
+    border:0;
+    background:#eee;
+    border-radius:8px;
+    text-indent:20px;
+    width:270px;
+    
+}
+.container span{
+    display:inline-block;
+    font-family:14px;
+    color:red;
+    line-height:37px;
+    margin-left:20px;
+}
+.container input:focus{
+    outline:none;
+}
+#add-btn{
+    display:block;
+    width:250px;
+    margin:20px 0 0 150px;
+    height:37px;
+    line-height:37px;
+    border:0;
+    background:#ffaa00;
+    border-radius:8px ;
+}
+table{
+    margin:40px 0 0 150px;
+    width:350px;
+    border-collapse:collapse;
+    border:2px solid #ffaa00;
+    text-align:center;
+}
+td{
+    border:2px solid #ffaa00;
+    height:28px;
+}

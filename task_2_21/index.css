@@ -1,0 +1,46 @@
+﻿
+*{
+    font-family:"Microsoft YaHei";
+}    
+#tagInput{
+    height:28px;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+#tag{
+    margin:20px 0;
+}
+#tag p,#hobby div{
+    display:inline-block;
+    background:#ccccff;
+    height:38px;
+    color:#fff;
+    font-size:20px;
+    line-height:38px;
+    padding:0 5px;
+    margin:0 0 0 5px;
+}
+#tag p:hover{
+    background:red;
+}
+textarea{
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:10px;
+}
+#ensure{
+    display:block;
+    width:150px;
+    height:30px;
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin:20px 0 0 60px;
+}
+#hobby{
+    margin:20px 0;
+}
+#hobby div{
+    background:#ffcc99;
+}

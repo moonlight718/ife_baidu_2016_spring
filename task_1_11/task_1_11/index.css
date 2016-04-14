@@ -1,0 +1,235 @@
+﻿body {
+    font-family: 'Microsoft YaHei',"Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+a, img {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    display:block;
+}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+*{
+    margin:0;
+    padding:0;
+    color:#333;
+}
+header{
+    height:4rem;
+    line-height:4rem;
+    background:#91d4da;
+    position:relative;
+}
+.back{
+    position:absolute;
+    left:0.9rem;
+    font-size:1.2rem;
+    color:#fff;
+}
+header h1{
+    font-size:1.4rem;
+    text-align:center;
+    font-weight:400;
+    color:#fff;
+}
+nav{
+    font-size:0;
+}
+nav a{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    height:3.6rem;
+    line-height:3.6rem;
+    font-size:1.2rem;
+}
+nav a.select{
+    border-bottom:0.3rem solid #91d4da;
+}
+.banner img{
+    display:block;
+    width:100%;
+}
+.label{
+    font-size:0;
+    margin:1rem 0 0.2rem 0;
+}
+.label li{
+    display:inline-block;
+    width:20%;
+}
+.icon{
+    width:4rem;
+    height:4rem;
+    margin: 0 auto;
+    border-radius:50%;
+    background:#00c7d6;
+    text-align:center;
+    line-height:4rem;
+    vertical-align:center;
+}
+.icon img{
+    height:2rem;
+    margin-top:1rem; 
+}
+.label-word{
+    text-align:center;
+    margin:1rem;
+    font-size:1rem;
+}
+/*********分栏********/
+.coloums{
+    font-size:0;
+    width:95%;
+    margin:0 auto;
+    border-top:0.2rem solid #eee;
+}
+.lan{
+    display:inline-block;
+    width:33.333333%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border-right:0.1rem solid #eee;
+    margin:1rem 0;
+    text-align:center;
+}
+.lan img{
+    width:65%;
+    margin-top:3%;
+}
+.third{
+    border:none;
+}
+.lan h2{
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:400;
+    margin:0.5rem;
+    color:#111;
+}
+.lan h3{
+    text-align:center;
+    font-size:1rem;
+    margin-bottom:3%;
+    font-weight:400;
+}
+.line{
+    height:1rem;
+    background:#eee;
+}
+/***********模块1，模块2********/
+.modular{
+    width:95%;
+    margin: 0 auto;
+}
+.modular h2{
+    height:3.5rem;
+    line-height:3.6rem;
+    font-size:1.4rem;
+    font-weight:400;
+    border-bottom:0.1rem solid #eee;
+}
+.container1{
+    margin:1rem 0 0 0;
+    overflow:auto;
+}
+.container1 div{
+    float:left;
+    width:calc((100% - 2rem)/3 + 1rem);
+    height:3rem;
+    margin-left:1rem;
+    margin-bottom:1rem;
+    background:#eee;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:1rem;
+    line-height:3rem;
+}
+.container1 .pic{
+    height:7rem;
+    margin-left:0;
+    width:calc((100% - 2rem)/3 - 2rem);
+    border:1px solid #fbd294;
+}
+.pic img{
+    width:100%;
+    height:100%;
+}
+/***只有一只熊的样式**/
+.modular3{
+    width:95%;
+    margin:1rem auto; 
+    overflow:hidden;
+    
+}
+.modular3 div{
+    float:left;
+}
+.left{
+    width:10rem;
+    height:7rem;
+}
+.left img{
+    width:100%;
+    height:100%;
+}
+.container2{
+    width:calc(100% - 11rem);
+    margin-left:1rem;
+    height:7rem;
+    position:relative;
+}
+.container2 h2{
+    font-size:1.3rem;
+    font-weight:400;
+}
+.container2 p{
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size:0.8rem;
+    color:#666;
+}
+.line1{
+    height:0.1rem;
+    background:#eee;
+}
+/********三个小熊样式******/
+.modular4{
+    width:95%;
+    margin:0 auto;
+}
+.modular4 h2{
+    font-size:1.3rem;
+    font-weight:400;
+    height:2rem;
+    line-height:2rem;
+    margin:0.8rem 0;
+}
+.container4{
+    font-size:0;
+}
+.container4 img{
+    display:inline-block;
+    width:calc((100% - 0.4rem)/3);
+    padding-right:0.2rem;
+}
+.container4 .last{
+    padding-right:0;
+}
+.modular4 p{
+    font-size:0.8rem;
+    color:#666;
+    line-height:1rem;
+    margin:1rem 0;
+}
+footer{
+    height:4rem;
+    background:#eee;
+}

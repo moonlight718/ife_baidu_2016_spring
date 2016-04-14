@@ -1,0 +1,57 @@
+﻿.aqi-chart-wrap{
+    height:600px;
+    width:1200px;
+    border:1px solid #ccc;
+    margin:20px auto;
+    position:relative;
+    border-radius:20px;
+    box-shadow:2px 2px 3px #ccc;
+    overflow:hidden;
+}
+.aqi-chart-wrap div{
+    position:absolute;
+    bottom:0px;
+    animation: rise .8s ease;
+}
+select{
+    width:150px;
+    height:28px;
+}
+#form-gra-time,.select{
+    margin: 10px auto;
+    border:1px solid #aaa;
+    width:1180px;
+    border-radius:10px;
+    box-shadow:2px 2px 2px #ccc;
+}
+@keyframes rise {
+    0% {
+        bottom: -300px;
+    }
+    100% {
+        bottom: 0;
+    }
+
+}
+.aqi-chart-wrap div  p{
+    width:120px;
+    line-height:38px;
+    color:#666;
+    height:38px;
+    font-size:12px;
+    text-align:center;
+    border:1px solid #ddd;
+    border-radius:10px;
+    box-shadow:2px 2px 3px #ddd;
+    position:relative;
+    top:-60px;
+    left:50%;
+    margin-left:-60px;
+    display:none;
+    background:#fff;
+    z-index:999;
+    
+}
+.aqi-chart-wrap div:hover  p{
+    display:block;
+}

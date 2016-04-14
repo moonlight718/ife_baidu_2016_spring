@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <header>
+            <a class="back">< 返回</a><h1>这是标题</h1>
+        </header>
+        <nav>
+            <a href="">导航</a>
+            <a href="" class="select">导航</a>
+            <a href="">导航</a>
+            <a href="">导航</a>
+            <a href="">导航</a>
+        </nav>
+        <div class="banner">
+            <img src="image/banner.jpg"/>
+        </div>
+        <ul class="label">
+            <li><div class="icon"><img src="image/icon.png"/></div><p class="label-word">标签</p></li>
+            <li><div class="icon"><img src="image/icon.png"/></div><p class="label-word">标签</p></li>
+            <li><div class="icon"><img src="image/icon.png"/></div><p class="label-word">标签</p></li>
+            <li><div class="icon"><img src="image/icon.png"/></div><p class="label-word">标签</p></li>
+            <li><div class="icon"><img src="image/icon.png"/></div><p class="label-word">标签</p></li>
+        </ul>
+        <div class="coloums">
+            <div class="lan"><img src="image/xiong.jpg"><h2>分栏一</h2><h3>分栏小标题</h3></div>
+            <div class="lan"><img src="image/xiong.jpg"><h2>分栏二</h2><h3>分栏小标题</h3></div>
+            <div class="lan third"><img src="image/xiong.jpg"><h2>分栏三</h2><h3>分栏小标题</h3></div>
+        </div>
+        <div class="line"></div>
+        <div class="modular">
+            <h2>模块一</h2>
+            <div class="container1">
+                <div class="pic"><img src="image/xiong2.jpg"/></div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div class="pic"><img src="image/xiong2.jpg"/></div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                
+            </div>
+        </div>
+       <div class="line"></div>
+        <div class="modular">
+            <h2>模块二</h2>
+            <div class="container1">
+                <div class="pic"><img src="image/xiong2.jpg"/></div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div class="pic"><img src="image/xiong2.jpg"/></div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                <div>这是文案</div>
+                
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="modular3">
+            <div class="left"><img src="image/xiong3.jpg" /></div>
+            <div class="container2"><h2>这是文章标题字号是22的文章标题</h2><p>文章来源 6分钟前</p></div>
+  
+        </div>
+        <div class="line1"></div>
+        <div class="modular3">
+            <div class="left"><img src="image/xiong3.jpg" /></div>
+            <div class="container2"><h2>这是文章标题字号是22的文章标题</h2><p>文章来源 6分钟前</p></div>
+  
+        </div>
+        <div class="modular4">
+            <h2>这个也是文章标题字号是22的文章标题</h2>
+            <div class="container4">
+                <img src="image/xiong3.jpg" />
+                <img src="image/xiong3.jpg" />
+                <img class="last" src="image/xiong3.jpg" />
+            </div>
+            <p>文章来源 7分钟前</p>
+        </div>
+        <footer>
+        </footer>
+        <script type="text/javascript">
+        (function (doc, win) {
+          var docEl = doc.documentElement,//取得html的引用
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 20 * (clientWidth / 640) + 'px';
+            };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+        </script>
+    </body>
+</html>

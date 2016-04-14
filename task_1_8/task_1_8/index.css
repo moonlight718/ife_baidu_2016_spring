@@ -1,0 +1,173 @@
+﻿*{
+    padding:0;
+    margin:0;
+}
+.continer{
+    padding:20px 20px 0 20px;
+}
+.warpper{
+    margin-left:-20px;
+}
+.continer:before,.continer:after,.wapper:before,.wapper:after{
+    display:table;
+    content:'';
+    clear:both;
+}
+[class*='col-']{
+    float:left;
+    height:50px;
+    background:#ccc;
+    border:1px solid #888;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+@media (min-width:768px){
+    .col-a-1{
+        width:calc(8.333333% - 22px);
+    }
+    .col-a-2{
+        width:calc(16.66666% - 22px);
+    }
+    .col-a-3{
+        width:calc(25% - 22px);
+    }
+    .col-a-4{
+        width:calc(33.333333% - 22px);
+    }
+    .col-a-5{
+        width:calc(41.666666% - 22px);
+    }
+    .col-a-6{
+        width:calc(50% - 22px);
+    }
+    .col-a-7{
+        width:calc(58.333333% - 22px);
+    }
+    .col-a-8{
+        width:calc(66.666666% - 22px);
+    }
+    .col-a-9{
+        width:calc(75% - 22px);
+    }
+    .col-a-10{
+        width:calc(83.333333% - 22px);
+    }
+    .col-a-11{
+        width:calc(91.666666% - 22px);
+    }
+    .col-a-12{
+        width:calc(100% - 22px);
+    }
+    .col-a-1:before{
+        content:'一栏';
+    }
+    .col-a-2:before{
+        content:'两栏';
+    }
+    .col-a-3:before{
+        content:'三栏';
+    }
+    .col-a-4:before{
+        content:'四栏';
+    }
+    .col-a-5:before{
+        content:'五栏';
+    }
+    .col-a-6:before{
+        content:'六栏';
+    }
+    .col-a-7:before{
+        content:'七栏';
+        color:red;
+    }
+    .col-a-8:before{
+        content:'八栏';
+    }
+    .col-a-9:before{
+        content:'九栏';
+    }
+    .col-a-10:before{
+        content:'十栏';
+    }
+    .col-a-11:before{
+        content:'十一栏';
+    }
+    .col-a-12:before{
+        content:'十二栏';
+    }
+}
+@media (max-width:768px){
+    .col-b-1{
+        width:calc(8.333333% - 22px);
+    }
+    .col-b-2{
+        width:calc(16.66666% - 22px);
+    }
+    .col-b-3{
+        width:calc(25% - 22px);
+    }
+    .col-b-4{
+        width:calc(33.333333% - 22px);
+    }
+    .col-b-5{
+        width:calc(41.666666% - 22px);
+    }
+    .col-b-6{
+        width:calc(50% - 22px);
+    }
+    .col-b-7{
+        width:calc(58.333333% - 22px);
+    }
+    .col-b-8{
+        width:calc(66.666666% - 22px);
+    }
+    .col-b-9{
+        width:calc(75% - 22px);
+    }
+    .col-b-10{
+        width:calc(83.333333% - 22px);
+    }
+    .col-b-11{
+        width:calc(91.666666% - 22px);
+    }
+    .col-b-12{
+        width:calc(100% - 22px);
+    }
+    .col-b-1:before{
+        content:'一栏';
+    }
+    .col-b-2:before{
+        content:'两栏';
+    }
+    .col-b-3:before{
+        content:'三栏';
+    }
+    .col-b-4:before{
+        content:'四栏';
+    }
+    .col-b-5:before{
+        content:'五栏';
+    }
+    .col-b-6:before{
+        content:'六栏';
+    }
+    .col-b-7:before{
+        content:'七栏';
+    }
+    .col-b-8:before{
+        content:'八栏';
+    }
+    .col-b-9:before{
+        content:'九栏';
+    }
+    .col-b-10:before{
+        content:'十栏';
+    }
+    .col-b-11:before{
+        content:'十一栏';
+    }
+    .col-b-12:before{
+        content:'十二栏';
+    }
+}
