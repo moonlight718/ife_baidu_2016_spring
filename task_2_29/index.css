@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:"Microsoft Yahei";
+}
+.container {
+    width:600px;
+    height:300px;
+    margin:100px auto;
+    font-size:20px;
+}
+input {
+    width:350px;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    text-indent:20px;
+    font-size:18px;
+}
+button{
+    width: 85px;
+    height:53px;
+    background:#2F79BA;
+    color:#fff;
+    border:none;
+    font-size:20px;
+    border-radius:5px;
+    vertical-align:middle;
+    line-height:53px;
+}
+p{
+    margin:10px 0 0 80px;
+    font-size:16px;
+    color:#ccc;
+}
