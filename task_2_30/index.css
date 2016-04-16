@@ -1,0 +1,55 @@
+﻿* {
+    padding:0;
+    margin:0;
+    font-family:"Microsoft YaHei";
+}
+form {
+    width:80%;
+    margin:20px auto;
+    min-width:800px;
+}
+label,input {
+    display:inline-block;
+    box-sizing:border-box;
+    width:80%;
+    height:45px;
+    line-height:45px;
+    font-size:20px;
+    margin-top:20px;
+}
+label {
+    width:15%;
+    text-align:right;
+    padding-right:20px;
+}
+input {
+    border:1px solid #ccc;
+    border-radius:8px;
+    text-indent:20px;
+}
+input:focus{
+    border:1px solid #08c;
+    outline:none;
+    box-shadow:2px 2px 3px #eee;
+}
+button{
+    display:block;
+    margin:20px auto;
+    width:150px;
+    height:40px;
+    color:#fff;
+    background:#08c;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+}
+button:focus {
+    outline:none;
+}
+button:hover {
+    background:#2a6496;
+}
+p {
+    margin-left:15%;
+    margin-top:5px;
+}
