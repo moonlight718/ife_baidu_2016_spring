@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:"Microsoft Yahei";
+    font-size:18px;
+}
+#container {
+    width:600px;
+    margin:20px auto;
+}
+#schoolStudent, #notSchoolStudent {
+    height:25px;
+    width:25px;
+    vertical-align:middle;
+}
+label {
+    display:inline-block;
+    width:49%;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+#schoolStudent1{
+    margin:20px auto;
+}
+#city{
+    width:200px;
+}
+#school {
+    width:350px;
+}
+#city, #school, #job {
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+#job {
+    width:520px;
+    text-indent:20px;
+}
+.missing {
+    display:none;
+}
+#notSchoolStudent1{
+    margin:20px 0;
+}
