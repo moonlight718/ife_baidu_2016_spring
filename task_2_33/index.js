@@ -63,7 +63,9 @@ Block.prototype = {
         this.block.style.transform = "rotate(" + this.rotate + "deg)";
     },
     Back: function(){
-        
+        this.degree = (this.degree + 180) % 360;
+        this.rotate = this.rotate + 180;
+        this.block.style.transform = "rotate(" + this.rotate + "deg)";
     }
 };
 (function(){
