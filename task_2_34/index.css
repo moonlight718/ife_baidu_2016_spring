@@ -1,0 +1,60 @@
+﻿* {
+    padding:0;
+    margin:0;
+    font-family:"Microsoft Yahei";
+}
+.container{
+    margin:50px 0 0 100px;
+}
+table {
+    border-collapse:collapse;
+}
+th, td {
+    width:50px;
+    height:50px;
+    text-align:center;
+    box-sizing:border-box;
+}
+td{
+   border: 1px solid #bbb;
+}
+button{
+    width:100px;
+    height:40px;
+    border:none;
+    background:#08c;
+    border-radius:5px;
+    margin-left:38px;
+    color:#fff;
+    margin-top:20px;
+    font-size:18px;
+}
+button:hover {
+    background:#2a6496;
+}
+.orderAnother {
+    margin: 20px 0 0 38px;
+}
+input{
+    width:317px;
+    height:37px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    vertical-align:middle;
+    text-indent:20px;
+}
+#block {
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:200px;
+    left:350px;
+    background:#08c;
+    transition: all 0.3s ease 0s;
+}
+#block span {
+    display:block;
+    height:10px;
+    width:100%;
+    background:#0b8;
+}
