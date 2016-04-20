@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"Microfost Yahei";
+}
+.track{
+    width:600px;
+    height:600px;
+    position:relative;
+    background:#eee;
+    margin: 20px auto;
+}
+.fourthTrack, .thirdTrack, .secondTrack, .firstTrack, .earth{
+    position:absolute;
+    border:1px solid #ccc;
+    border-radius:50%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.fourthTrack {
+    width:100%;
+    height:100%;
+}
+.thirdTrack {
+    width:80%;
+    height:80%;
+}
+.secondTrack {
+    width:60%;
+    height:60%;
+}
+.firstTrack{
+    width:40%;
+    height:40%;
+}
+.earth{
+    width:20%;
+    height:20%;
+    background:#228888;
+    border:none;
+}
+.Ship {
+    width:60px;
+    height:100%;
+    margin:0 auto;
+    transition: all 0.1s linear 0s;
+    display:none;
+}
+.Ship div{
+    width:100%;
+    height:30px;
+    position:relative;
+    text-align:center;
+    line-height:30px;
+    z-index:2;
+    border-radius:20px;
+    background:#fff;
+    overflow:hidden;
+    font-weight:bold;
+}
+.Ship span{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:#2288aa;
+    z-index:-1;
+}
+.controller{
+    width:560px;
+    margin:20px auto;
+    border:1px solid #ccc;
+    border-left:none;
+    border-right:none;
+    padding:20px;
+}
+.controller p{
+    height:30px;
+    line-height:24px;
+    display:none;
+}
+button{
+    margin-left:20px;
+    width:120px;
+    height:24px;
+    background:#288;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+}
+button:hover{
+    background:#299;
+}
