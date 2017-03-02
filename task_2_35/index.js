@@ -17,10 +17,10 @@
 };
 function $(l){return document.querySelector(l);}
 var qiPan = {
-    left:150,
+    left:100,
     top:50,
     bottom:550,
-    right:650
+    right:600
 };
 var text = {
     rows:1
